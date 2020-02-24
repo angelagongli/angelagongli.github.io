@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../images/dot-grid.png");
+    background-color: #ffffff;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+}
+  
+header {
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar-toggler {
+    margin-right: 10px;
+}
+
+h1, h2 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    color: #4aaaa5;
+    border-bottom-style: solid;
+    border-bottom-color: #cccccc;
+    padding: 20px 0px;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+}
+
+.name-block {
+    background-color: #4aaaa5;
+    color: white;
+    border: none;
+    float: left;
+    padding: 20px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    color: #777777;
+    text-decoration: none;
+    text-align: center;
+}
+
+a:hover {
+    color: #000000;
+    text-decoration: none;
+    transition: color 1s;
+}
+
+.main-content {
+    border-style: solid;
+    border-color: #dddddd;
+    background-color: #ffffff;
+    margin: 40px 0px;
+    align-self: center;
+    padding: 20px;
+    overflow: auto;
+}
+
+#headshot {
+    padding: 10px 0px;
+}
+
+div {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding: 10px 0px;
+}
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 16px;
+    line-height: 200%;
+    color: #777777;
+    margin-block-start: 0px;
+    margin-block-end: 0px;
+    padding-bottom: 10px;
+}
+
+.card {
+    border: solid 2px #dddddd;
+    border-radius: 0px;
+    padding: 0px;
+}
+
+.card-body {
+    background-color: #f8f9fa;
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    text-align: center;
+    border-top: solid 2px #dddddd;
+}
+
+.btn {
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    border: none;
+    border-radius: 0px;
+}
+
+.btn:hover {
+    background-color: #4aaaa5;
+    color: black;
+}
+
+#submit:hover {
+    color: black;
+    transition: color 1s;
+}
+
+.btn:focus, #submit:focus {
+    background-color: #666666;
+    color: white;
+}
+
+.input-field {
+    width: 100%;
+}
+
+textarea {
+    width: 100%;
+    height: 250px;
+    resize: none;
+}
+
+#submit{
+    background-color: #4aaaa5;
+    color: white;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    border: none;
+    padding: 10px 25px;
+}
+
+.contact-links {
+    white-space: nowrap;
+}
+
+footer {
+    border-top: 8px solid #4aaaa5;
+    padding: 20px;
+    text-align: center;
+    background-color: #666666;
+}  
+
+.footer-text{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+
+/* Media Queries */
+
+/* modify text size on very small screen widths */
+
+@media screen and (max-width: 350px) {
+
+    .contact-links a {
+        font-size: 14px;
+    }
+
+}
+
+
+/* push contact links from right of contact form to above contact form
+(when stacking on smaller screen widths) */
+
+@media screen and (max-width: 992px) {
+
+    .contact-container {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+}
+
+
+/* modify text size on xl screen widths */
+
+@media screen and (min-width: 1200px) {
+
+    p {
+        font-size: 18px;
+    }
+
+}
+
+
+/* format navbar links when appearing outside of dropdown menu
+(on larger screen widths) */
+
+@media screen and (min-width: 992px) {
+    
+    li {
+        display: inline;
+        border-right: 1px solid #cccccc;
+        padding: 0px 15px;
+    }
+    
+    li:last-child {
+        border-right: none;
+    }
+
+}

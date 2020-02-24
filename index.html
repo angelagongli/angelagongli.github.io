@@ -5,30 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>About Me</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="icon" type="image/png" href="assets/images/favicon.ico">
 </head>
 <body>
     <header>
-        <section class="flex-container">
-            <h1 class="name-block">Angela Li</h1>
-            <div>
-                <a href="index.html">About</a>    |    
-                <a href="portfolio.html">Portfolio</a>    |    
-                <a href="contact.html">Contact</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <h2 class="name-block">Angela Li</h2>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+              </ul>
             </div>
-        </section>    
+          </nav>
     </header>
 
-    <section class="main-content">
-        <h1>About Me</h1>
-        <div>
-            <img src="https://icatcare.org/app/uploads/2018/06/Layer-1704-1920x840.jpg" id="headshot" alt="headshot image">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris aliquet, nulla vel posuere maximus, eros orci eleifend erat, eu aliquam elit turpis feugiat massa. Nulla sit amet porta orci. Donec dapibus odio non tempor dapibus. Praesent iaculis dapibus odio, mattis ultrices sem. Pellentesque sed justo fringilla, luctus felis ut, semper arcu. Pellentesque posuere, mauris vitae elementum bibendum, velit enim venenatis tortor, non dignissim tellus purus ut ex. Curabitur mollis, elit id vehicula tempor, orci ex suscipit ex, vel lobortis ligula lacus et velit. Vivamus mauris tellus, varius ac est eget, posuere maximus velit. Vivamus iaculis, orci sed rhoncus vehicula, nibh libero tincidunt ipsum, in sagittis ante urna vel quam. Mauris scelerisque, velit quis ultricies dapibus, massa ex aliquet libero, eget ultrices nulla turpis in ex. Nullam in tortor neque. Vivamus gravida vitae ex non malesuada. Ut placerat, ante vel tempor pharetra, velit augue rhoncus justo, ut dignissim est ipsum ut risus. Proin blandit, libero sit amet porttitor congue, quam sapien consequat ligula, eu fringilla diam odio et metus. Etiam fermentum tortor at bibendum viverra. Sed erat risus, consectetur suscipit nunc sollicitudin, ultricies molestie mi. Fusce pulvinar, justo non auctor tristique, nulla turpis egestas ligula, eget aliquam est risus sit amet enim. Nam eu suscipit neque. Nam dictum, justo sit amet sagittis posuere, massa justo ultrices eros, vel pulvinar enim nisl vitae mauris. Proin fringilla faucibus fringilla. Nam id maximus mi. In ornare magna in consequat tempus. Donec cursus gravida nisl a placerat. Proin mi eros, rutrum sed ante nec, fermentum dapibus neque. Aenean iaculis turpis nec tempus volutpat. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nullam luctus condimentum mollis. Nunc dapibus, ex vel ornare elementum, nisi ipsum gravida leo, at venenatis orci sem vitae lorem. Donec malesuada felis diam, lacinia placerat dolor convallis condimentum. Quisque lacinia et quam sit amet interdum. Aenean congue purus at vestibulum lacinia. Nulla purus dui, porttitor et vulputate a, iaculis eu ex. Donec faucibus dapibus orci, ut varius erat sollicitudin non. Sed mollis finibus dui, a blandit erat viverra vitae. Vestibulum tellus risus, vehicula eget nunc eu, malesuada dapibus mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec quis dignissim ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Cras a venenatis enim. Maecenas sodales odio lacus, ac luctus nisi finibus eu.</p>
-        </div>    
-    </section>
-    
-    <footer>
-        Copyright &copy;
+    <div class="container main-content">
+        <div class="row">
+            <div class="col-12">
+                <h1>About Me</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <picture>
+                    <source media="(max-width: 400px)"
+                            srcset="assets/images/headshot-cropped.jpg 1x,
+                                    assets/images/headshot-cropped-big.jpg 2x"/>
+                    <source media="(min-width: 401px) and (max-width: 666px)"
+                            srcset="assets/images/headshot-small.JPG 1x,
+                                    assets/images/headshot-big.JPG 2x"/>
+                    <source media="(min-width: 666px)"
+                            srcset="assets/images/headshot-big.JPG"/>
+                    <img src="assets/images/headshot-big.JPG"
+                            class="img-fluid" id="headshot" alt="headshot image"/>
+                </picture>
+            </div>
+            <div class="col-12 col-lg-6">
+                <p>A warm and virtual welcome to you! My name is Angela Li, and the purpose of this portfolio website is to showcase a number of project chosen from my work. The daughter of a physics post-doc at A&M-turned-programmer, I’m perhaps fittingly an ex-transfer pricing analyst now enrolled in the Coding Boot Camp at UT. Its curriculum covers a full stack, meaning that my work in this program consists of developing applications utilizing both front-end and back-end technologies.</p>
+            </div>
+            <div class="col-12">
+                <p>I’ve met a couple programming languages in the past: Java in high school computer science class, Racket and C in the introductory computer science sequence at the University of Chicago, and a host of other languages including R and Stata in the economics major coursework. Of course, I’ve also written my fair share of VBA in the office. I love to solve problems with code! (Read: I love when my code works.) This fact became apparent to me even as I didn’t major in the subject, in college. Now, bugs aside, I am happy to be coding all the time!</p>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer mt-auto py-3">
+        <div class="container">
+            <span class="footer-text">Copyright &copy;</span>
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>

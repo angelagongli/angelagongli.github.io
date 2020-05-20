@@ -1,0 +1,30 @@
+[
+    {
+        "name": "Corona Crisis Center",
+        "deployed": "http://crisiscenter.herokuapp.com/",
+        "repo": "https://github.com/angelagongli/crisisCenter"
+    },
+    {
+        "name": "Joyney",
+        "deployed": "https://moddoo.github.io/JoyNey/",
+        "repo": "https://github.com/angelagongli/JoyNey"
+    },
+    {
+        "name": "Employee Tracker",
+        "repo": "https://github.com/angelagongli/employee-tracker"
+    },
+    {
+        "name": "Template Engine",
+        "repo": "https://github.com/angelagongli/template-engine"
+    },
+    {
+        "name": "Weather Dashboard",
+        "deployed": "https://angelagongli.github.io/weather-dashboard/",
+        "repo": "https://github.com/angelagongli/weather-dashboard"
+    },
+    {
+        "name": "Code Quiz",
+        "deployed": "https://angelagongli.github.io/code-quiz/",
+        "repo": "https://github.com/angelagongli/code-quiz"
+    }
+]

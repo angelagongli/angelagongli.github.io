@@ -1,0 +1,39 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6ed14db8.chunk.css",
+    "main.js": "/static/js/main.97c92d48.chunk.js",
+    "main.js.map": "/static/js/main.97c92d48.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.7e4b9196.js",
+    "runtime-main.js.map": "/static/js/runtime-main.7e4b9196.js.map",
+    "static/js/2.a863ec79.chunk.js": "/static/js/2.a863ec79.chunk.js",
+    "static/js/2.a863ec79.chunk.js.map": "/static/js/2.a863ec79.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.db588cee6c2d13d5207825709a95b105.js": "/precache-manifest.db588cee6c2d13d5207825709a95b105.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.6ed14db8.chunk.css.map": "/static/css/main.6ed14db8.chunk.css.map",
+    "static/js/2.a863ec79.chunk.js.LICENSE.txt": "/static/js/2.a863ec79.chunk.js.LICENSE.txt",
+    "static/media/code-quiz-screenshot.png": "/static/media/code-quiz-screenshot.da418c96.png",
+    "static/media/corona-screenshot.png": "/static/media/corona-screenshot.97871263.png",
+    "static/media/door.jpg": "/static/media/door.84460ffe.jpg",
+    "static/media/style.css": "/static/media/dot-grid.5a69c256.png",
+    "static/media/employee-tracker-demo.mp4": "/static/media/employee-tracker-demo.ab20fab7.mp4",
+    "static/media/employee-tracker-screenshot.png": "/static/media/employee-tracker-screenshot.f174f06a.png",
+    "static/media/gallery.jpg": "/static/media/gallery.7f07f67c.jpg",
+    "static/media/headshot-big.JPG": "/static/media/headshot-big.87eef944.JPG",
+    "static/media/headshot-cropped-big.jpg": "/static/media/headshot-cropped-big.13ee1d8d.jpg",
+    "static/media/headshot-cropped.jpg": "/static/media/headshot-cropped.3796f6db.jpg",
+    "static/media/headshot-small.JPG": "/static/media/headshot-small.dbbb9e5e.JPG",
+    "static/media/joyney-screenshot.png": "/static/media/joyney-screenshot.83f8be52.png",
+    "static/media/mailbox.jpg": "/static/media/mailbox.2d08157a.jpg",
+    "static/media/resume.pdf": "/static/media/resume.eb4be145.pdf",
+    "static/media/template-engine-demo.mp4": "/static/media/template-engine-demo.0ee6b51a.mp4",
+    "static/media/template-engine-screenshot.png": "/static/media/template-engine-screenshot.c6b385ef.png",
+    "static/media/weather-dashboard-screenshot.png": "/static/media/weather-dashboard-screenshot.f02b428d.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e4b9196.js",
+    "static/js/2.a863ec79.chunk.js",
+    "static/css/main.6ed14db8.chunk.css",
+    "static/js/main.97c92d48.chunk.js"
+  ]
+}
